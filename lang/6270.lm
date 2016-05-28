@@ -1,0 +1,66 @@
+Language model created by QuickLM on Wed May 25 19:40:36 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=16
+ngram 3=16
+
+\1-grams:
+-0.9331 </s> -0.3010
+-0.9331 <s> -0.2472
+-1.7782 CAN -0.2937
+-1.4771 ECHO -0.2472
+-1.7782 HEAR -0.2937
+-1.3010 HELLO -0.2553
+-1.3010 HI -0.2553
+-1.7782 ME -0.2472
+-1.4771 SAMANTHA -0.2472
+-1.4771 TONY -0.2472
+-1.7782 YOU -0.2937
+
+\2-grams:
+-1.1461 <s> CAN 0.0000
+-0.6690 <s> HELLO 0.0000
+-0.6690 <s> HI 0.0000
+-0.3010 CAN YOU 0.0000
+-0.3010 ECHO </s> -0.3010
+-0.3010 HEAR ME 0.0000
+-0.7782 HELLO ECHO 0.0000
+-0.7782 HELLO SAMANTHA 0.0000
+-0.7782 HELLO TONY 0.0000
+-0.7782 HI ECHO 0.0000
+-0.7782 HI SAMANTHA 0.0000
+-0.7782 HI TONY 0.0000
+-0.3010 ME </s> -0.3010
+-0.3010 SAMANTHA </s> -0.3010
+-0.3010 TONY </s> -0.3010
+-0.3010 YOU HEAR 0.0000
+
+\3-grams:
+-0.3010 <s> CAN YOU
+-0.7782 <s> HELLO ECHO
+-0.7782 <s> HELLO SAMANTHA
+-0.7782 <s> HELLO TONY
+-0.7782 <s> HI ECHO
+-0.7782 <s> HI SAMANTHA
+-0.7782 <s> HI TONY
+-0.3010 CAN YOU HEAR
+-0.3010 HEAR ME </s>
+-0.3010 HELLO ECHO </s>
+-0.3010 HELLO SAMANTHA </s>
+-0.3010 HELLO TONY </s>
+-0.3010 HI ECHO </s>
+-0.3010 HI SAMANTHA </s>
+-0.3010 HI TONY </s>
+-0.3010 YOU HEAR ME
+
+\end\

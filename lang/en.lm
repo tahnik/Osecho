@@ -1,0 +1,22 @@
+\data\
+ngram 1=4
+ngram 2=4
+ngram 3=2
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.0792 SAMANTHA -0.2218
+-1.0792 TONY -0.2218
+
+\2-grams:
+-0.6021 <s> SAMANTHA 0.0000
+-0.6021 <s> TONY 0.0000
+-0.3010 SAMANTHA </s> -0.3010
+-0.3010 TONY </s> -0.3010
+
+\3-grams:
+-0.3010 <s> SAMANTHA </s>
+-0.3010 <s> TONY </s>
+
+\end\

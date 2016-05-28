@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+grammar dialog;
+
+<verb> = CAN;
+
+<pronoun> = YOU | ME;
+
+public <command> = <verb> <pronoun> HEAR <pronoun>;
